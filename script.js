@@ -10,5 +10,4 @@ const valida = () => {
   }
 };
 
-
 botao.addEventListener('click', valida);
