@@ -9,5 +9,4 @@ const valida = () => {
     alert('Email ou senha inválidos.');
   }
 };
-
 botao.addEventListener('click', valida);
