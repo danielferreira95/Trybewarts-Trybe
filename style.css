@@ -210,7 +210,7 @@ h2 {
   height: 10px;
 }
 
-/* #submit-btn {
+#submit-btn {
   width: 670px;
   height: 30px;
   margin-left: 20px;
@@ -218,7 +218,7 @@ h2 {
   border-radius: 8px;
   color: white;
   background-color: darkblue;
-} */
+}
 
 #linha-vertical {
   width: 1px;
