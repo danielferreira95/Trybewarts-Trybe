@@ -19,7 +19,7 @@
         <form action="" method="get" class="trybewarts-login">
             <input type="email" name="email" id="email" placeholder="Email">
             <input type="password" name="password" id="senha" placeholder="Senha">
-            <button type="submit">Entrar</button>
+            <button type="submit" id="button-entrar">Entrar</button>
         </form>
     </header>
 
@@ -27,7 +27,7 @@
         <section>
             <h2>Formulário de avaliação</h2>
             <form action="" id="evaluation-form">
-                <div>
+                <div id="dados">
                     <input type="text" name="" id="input-name" placeholder="Nome">
                     <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
                     <input type="email" name="" id="input-email" placeholder="Email">
@@ -46,9 +46,9 @@
                     <section id="family">
                         <label for="" id="label-family">Qual sua família?</label>
                         <div id="family-div">
-                        <label for=""><p>Família Frontend</p></label>
-                        <input type="radio" name="family" value="Frontend">
-                        <label for=""><p>Família Backend</p></label>
+                        <label for="radio-1">Família Frontend</label>
+                        <input type="radio" name="family" value="Frontend" id="radio-1">
+                        <label for="">Família Backend</label>
                         <input type="radio" name="family" value="Backend">
                         <label for=""><p>Família FullStack</p></label>
                         <input type="radio" name="family" value="FullStack">
@@ -59,12 +59,12 @@
                     <section id="checkbox">
                         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                         <div id="checkbox-div">
-                        <input type="checkbox" class="subject" value="HoFs"><p>HoFs</p>
-                        <input type="checkbox" class="subject" value="Jest"><p>Jest</p>
-                        <input type="checkbox" class="subject" value="Promises"><p>Promises</p>
-                        <input type="checkbox" class="subject" value="React"><p>React</p>
-                        <input type="checkbox" class="subject" value="SQL"><p>SQL</p>
-                        <input type="checkbox" class="subject" value="Python"><p>Python</p>
+                        <input type="checkbox" class="subject" value="HoFs" id="checkbox-1"><label for="checkbox-1">HoFs</label>
+                        <input type="checkbox" class="subject" value="Jest" id="checkbox-2"><label for="checkbox-2">Jest</label>
+                        <input type="checkbox" class="subject" value="Promises" id="checkbox-3"><label for="checkbox-3">Promises</label>
+                        <input type="checkbox" class="subject" value="React" id="checkbox-4"><label for="checkbox-4">React</label>
+                        <input type="checkbox" class="subject" value="SQL" id="checkbox-5"><label for="checkbox-5">SQL</label>
+                        <input type="checkbox" class="subject" value="Python" id="checkbox-6"><label for="checkbox-6">Python</label>
                         </div>
                     </section>
                 </div>
@@ -86,7 +86,11 @@
                 <label for="" class="textarea">Deixe seu comentário:</label>
                 <textarea name="" id="" cols="80" rows="5" maxlength="500"></textarea>
                </section>
+               <section id="section-agreement"><label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
+                <input type="checkbox" name="" id="agreement">
+               </section>               
             </form>
+            <button type="submit" id="submit-btn">Enviar</button>
         </section>
         <div id="linha-vertical"></div>
         <img src="images/trybewarts-colored.svg" alt="logo brasão da Trybewarts" id="trybewarts-forms-logo">

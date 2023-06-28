@@ -47,11 +47,11 @@ h1 {
   padding: 10px;
 }
 
-button {
+#button-entrar {
   display: inline-block;
   width: 120px;
-  height: 40px;
-  border-radius: 10px;
+  height: 45px;
+  border-radius: 8px;
   color: white;
   background-color: darkblue;
 }
@@ -79,9 +79,10 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 17px;
 }
 
-#evaluation-form input {
+#dados input {
   border-radius: 10px;
   width: 250px;
   height: 45px;
@@ -104,6 +105,7 @@ h2 {
   width: 190px;
   padding: 10px;
   background-color: white;
+  color: rgb(9, 95, 91);
   border-radius: 10px;
 }
 
@@ -143,7 +145,7 @@ h2 {
   display: inline;
 }
 
-#family p {
+#family-div label {
   display: inline-block;
   box-sizing: border-box;
 }
@@ -153,7 +155,7 @@ h2 {
   margin-top: 18px;
 }
 
-#checkbox label {
+#checkbox > label {
   display: block;
   width: 300px;
 }
@@ -161,23 +163,25 @@ h2 {
 #checkbox-div {
   width: 230px;
   height: 100px;
+  margin-top: 12px;
 }
 
 #checkbox input {
   width: 12px;
   height: 10px;
-  margin-top: 0;
+  margin: 35px 0 0 15px;
 }
 
-#checkbox p {
-  display: inline-block;
+.subject {
+  width: 10px;
+  display: inline;
   margin: 15px 18px 15px 0;
 }
 
 #rate {
   width: 700px;
   height: 20px;
-  margin-top: 18px;
+  margin: 30px 0 0 70px;
 }
 
 #rate input {
@@ -187,14 +191,34 @@ h2 {
 }
 
 #textarea {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin: 50px 0 12px 24px;
 }
 
 #textarea textarea {
   border: 1px solid rgb(50, 167, 145);
   border-radius: 10px;
 }
+
+#section-agreement {
+  width: 500px;
+  margin: 20px 130px 0 0;
+}
+
+#agreement {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+/* #submit-btn {
+  width: 670px;
+  height: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  color: white;
+  background-color: darkblue;
+} */
 
 #linha-vertical {
   width: 1px;
