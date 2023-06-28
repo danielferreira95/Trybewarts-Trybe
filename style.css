@@ -7,6 +7,10 @@
   outline: none;
 }
 
+body {
+  background-color: rgb(181, 245, 233);
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -21,7 +25,7 @@
 }
 
 h1 {
-  color: white;
+  color: rgb(181, 245, 233);
   font-size: 75px;
 }
 
@@ -54,8 +58,19 @@ button {
 
 main {
   display: flex;
-  margin: 0 100px;
-  justify-content: space-evenly;
+  margin: 0;
+  justify-content: space-around;
+}
+
+main > section {
+  margin-left: 100px;
+  color: rgb(9, 95, 91);
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
 }
 
 #evaluation-form {
@@ -67,28 +82,106 @@ main {
 }
 
 #evaluation-form input {
-  border: 1px solid black;
   border-radius: 10px;
-  width: 300px;
+  width: 250px;
   height: 45px;
   padding: 10px;
   display: inline-block;
   margin-top: 15px;
 }
 
+#evaluation-form > div {
+  margin-left: 30px;
+}
+
 #evaluation-form > div > div {
   display: inline-block;
   margin: 5px;
+  font-size: 20px;
 }
 
 #house {
-  width: 250px;
+  width: 190px;
   padding: 10px;
   background-color: white;
-  border: 1px solid black;
   border-radius: 10px;
+}
+
+#linha-horizontal {
+  width: 800px;
+  height: 1px;
+  border: 1px solid rgb(50, 167, 145);
+  margin-top: 20px;
+}
+
+#options {
+  width: 650px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#family {
+  width: 150px;
+  height: 130px;
+  margin-top: 18px;
+}
+
+#label-family {
+  margin-bottom: 20px;
+}
+
+#family-div {
+  margin-top: 18px;
+}
+
+#family input {
+  width: 10px;
+  height: 22px;
+  margin-top: 15px;
+  display: inline;
+}
+
+#family p {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#checkbox {
+  width: 300px;
+  margin-top: 18px;
+}
+
+#checkbox label {
+  display: block;
+  width: 300px;
+}
+
+#checkbox-div {
+  width: 230px;
+  height: 100px;
+}
+
+#checkbox input {
+  width: 12px;
+  height: 10px;
+  margin-top: 0;
+}
+
+#checkbox p {
+  display: inline-block;
+  margin: 15px 18px 15px 0;
+}
+
+#linha-vertical {
+  width: 1px;
+  height: 900px;
+  border: 1px solid rgb(50, 167, 145);
+  margin-top: 40px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin: 80px 80px 0 0;
 }
